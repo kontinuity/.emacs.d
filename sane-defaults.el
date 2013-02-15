@@ -1,8 +1,10 @@
+;; Make cursor thin
+(set-default 'cursor-type 'bar)
+
 ;; Allow pasting selection outside of Emacs
 (setq x-select-enable-clipboard t)
 
 ;; Auto refresh buffers
-(global-auto-revert-mode 1)
 
 ;; Also auto refresh dired, but be quiet about it
 (setq global-auto-revert-non-file-buffers t)
