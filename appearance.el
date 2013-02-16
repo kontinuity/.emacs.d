@@ -8,6 +8,9 @@
 ;; Highlight current line
 (global-hl-line-mode 1)
 
+;; Show line numbers
+(global-linum-mode 1)
+
 ;; Customize background color of lighlighted line
 (set-face-background 'hl-line "#222222")
 
